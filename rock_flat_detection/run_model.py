@@ -59,7 +59,6 @@ def test(model, test_set, device):
 DEVICE = 'cuda:0'
 
 def main():
-    # Training settings
     parser = argparse.ArgumentParser(description='PyTorch graph convolutional neural net for classification task')
     parser.add_argument('--batch_size', type=int, default=8,
                         help='input batch size for training (default: 3)')
